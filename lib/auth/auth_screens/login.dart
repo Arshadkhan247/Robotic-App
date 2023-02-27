@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:lab_lms/Screens/dashboard.dart';
 import 'package:lab_lms/auth/auth_screens/sign_up.dart';
-import 'package:lab_lms/auth/widgets/account_signlogin_widget.dart';
-import 'package:lab_lms/auth/widgets/drone_image_widget.dart';
-import 'package:lab_lms/auth/widgets/google_facebook_widget.dart';
 import 'package:lab_lms/auth/widgets/input_form_widget.dart';
-import 'package:lab_lms/auth/widgets/reserved_text_widget.dart';
+import 'package:lab_lms/auth/widgets/drone_image_widget.dart';
 import 'package:lab_lms/auth/widgets/signup_login_widget.dart';
+import 'package:lab_lms/auth/widgets/reserved_text_widget.dart';
 import 'package:lab_lms/auth/widgets/top_reuseabele_widget.dart';
+import 'package:lab_lms/auth/widgets/google_facebook_widget.dart';
+import 'package:lab_lms/auth/widgets/account_signlogin_widget.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -24,6 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
+      
       child: Scaffold(
         resizeToAvoidBottomInset: false,
         body: Padding(
