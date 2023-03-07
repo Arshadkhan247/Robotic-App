@@ -54,7 +54,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                 ),
 
                 // Reusable Widget
-                
+
                 HomeCardWidget(
                   onTap: () {
                     Navigator.of(context).push(
